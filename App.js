@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import Navigation from './Components/navigation.jsx'
-import Index_1 from './All_Components/Profiles/profile_index_1.jsx';
+import Index_2 from './All_Components/Profiles/profile_index_2.jsx';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Index_1/>
+      <Index_2/>
       <StatusBar style="auto" />
     </View>
   );
