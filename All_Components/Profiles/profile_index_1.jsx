@@ -58,7 +58,7 @@ const index_1 = () => {
 const styles = StyleSheet.create({
   // Header styles
   header: {
-    backgroundColor: "#ADD8E6",
+    backgroundColor: "#A9A9A9",
     borderRadius: 20,
   },
   // Vertical Rule styles
