@@ -74,23 +74,27 @@ const IndexScreen = () => {
           <View style={styles.typeOfservices}>
             <View style={styles.sections}>
               <View style={styles.OrderItems}>
-                <Ionicons name="mail-outline" size={30} color="black" />
+                <Ionicons name="mail-outline" size={30} color="#3b444b" />
                 <Text style={styles.typeOfOrderName}>My Messages</Text>
               </View>
               <View style={styles.OrderItems}>
-                <MaterialIcons name="card-travel" size={30} color="black" />
+                <MaterialIcons name="card-travel" size={30} color="#3b444b" />
                 <Text style={styles.typeOfOrderName}>Payment</Text>
                 <Text style={styles.typeOfOrderName}>Options</Text>
               </View>
               <View style={styles.OrderItems}>
-                <Ionicons name="help-circle-outline" size={30} color="black" />
+                <Ionicons
+                  name="help-circle-outline"
+                  size={30}
+                  color="#3b444b"
+                />
                 <Text style={styles.typeOfOrderName}>Help Center</Text>
               </View>
               <View style={styles.OrderItems}>
                 <MaterialCommunityIcons
                   name="face-agent"
                   size={30}
-                  color="black"
+                  color="#3b444b"
                 />
                 <Text style={styles.typeOfOrderName}>Chat with Us</Text>
               </View>
@@ -108,16 +112,20 @@ const IndexScreen = () => {
                 <MaterialCommunityIcons
                   name="hand-coin-outline"
                   size={30}
-                  color="black"
+                  color="#3b444b"
                 />
                 <Text style={styles.typeOfOrderName}>Influencer Hub</Text>
               </View>
               <View style={styles.OrderItems}>
-              <MaterialCommunityIcons name="candy-outline" size={30} color="black" />
+                <MaterialCommunityIcons
+                  name="candy-outline"
+                  size={30}
+                  color="#3b444b"
+                />
                 <Text style={styles.typeOfOrderName}>App Candy</Text>
               </View>
               <View style={styles.OrderItems}>
-              <Entypo name="stopwatch" size={30} color="black" />
+                <Entypo name="stopwatch" size={30} color="#3b444b" />
                 <Text style={styles.typeOfOrderName}>PayLater</Text>
               </View>
             </View>
