@@ -53,11 +53,11 @@ const ProfileIndex3 = () => {
         {/* Use the AppButton component */}
         {/* Install this -  npx react-native init CustomButtonDemo */}
         <AppButton
-          onPress={() => console.log("Button pressed")}
+          onPress={() => console.log("Edit profile Button pressed")}
           title="Edit profile"
         />
         <AppButton
-          onPress={() => console.log("Button pressed")}
+          onPress={() => console.log("Share profile Button pressed")}
           title="Share profile"
         />
         
