@@ -9,6 +9,7 @@ import {
   TextInput,
   FlatList,
 } from "react-native";
+import { Feather } from '@expo/vector-icons';
 
 export default profile_index_5 = () => {
   const optionList = [
@@ -107,12 +108,8 @@ export default profile_index_5 = () => {
     <View style={styles.container}>
       <View style={styles.formContent}>
         <View style={styles.inputContainer}>
-          <Image
-            style={[styles.icon, styles.inputIcon]}
-            source={{
-              uri: "https://img.icons8.com/color/70/000000/search.png",
-            }}
-          />
+          
+          <Feather name="search" size={25} color="#6D6D6D" style={[styles.icon, styles.inputIcon]}/>
           <TextInput
             style={styles.inputs}
             placeholder="Search..."
@@ -183,13 +180,14 @@ const styles = StyleSheet.create({
   },
   inputs: {
     height: 45,
-    marginLeft: 16,
+    marginLeft: 12,
     borderBottomColor: "#FFFFFF",
     flex: 1,
   },
   inputIcon: {
     marginLeft: 15,
     justifyContent: "center",
+    alignItems:'center'
   },
   notificationList: {
     marginTop: 20,
