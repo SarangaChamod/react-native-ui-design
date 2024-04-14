@@ -9,7 +9,7 @@ import {
   TextInput,
   FlatList,
 } from "react-native";
-import { Feather } from "@expo/vector-icons";
+import { Feather } from '@expo/vector-icons';
 
 export default profile_index_5 = () => {
   const optionList = [
@@ -18,13 +18,7 @@ export default profile_index_5 = () => {
       color: "#20B2AA",
       icon: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       name: "John Doe",
-      tags: [
-        "programming",
-        "web development",
-        "JavaScript",
-        "React",
-        "Node.js",
-      ],
+      tags: ["programming", "web development", "JavaScript", "React", "Node.js"],
     },
     {
       id: 2,
@@ -38,13 +32,7 @@ export default profile_index_5 = () => {
       color: "#20B2AA",
       icon: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       name: "Michael Johnson",
-      tags: [
-        "data science",
-        "machine learning",
-        "Python",
-        "TensorFlow",
-        "NumPy",
-      ],
+      tags: ["data science", "machine learning", "Python", "TensorFlow", "NumPy"],
     },
     {
       id: 4,
@@ -72,12 +60,7 @@ export default profile_index_5 = () => {
       color: "#20B2AA",
       icon: "https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8",
       name: "David Garcia",
-      tags: [
-        "photography",
-        "photo editing",
-        "Adobe Lightroom",
-        "Adobe Photoshop",
-      ],
+      tags: ["photography", "photo editing", "Adobe Lightroom", "Adobe Photoshop"],
     },
     {
       id: 8,
@@ -91,14 +74,10 @@ export default profile_index_5 = () => {
       color: "#20B2AA",
       icon: "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?q=80&w=1781&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       name: "Liam Rodriguez",
-      tags: [
-        "music production",
-        "audio engineering",
-        "FL Studio",
-        "Ableton Live",
-      ],
+      tags: ["music production", "audio engineering", "FL Studio", "Ableton Live"],
     },
-  ];
+];
+
 
   const [options, setOptions] = useState(optionList);
   const [query, setQuery] = useState();
@@ -129,12 +108,8 @@ export default profile_index_5 = () => {
     <View style={styles.container}>
       <View style={styles.formContent}>
         <View style={styles.inputContainer}>
-          <Feather
-            name="search"
-            size={25}
-            color="#6D6D6D"
-            style={[styles.icon, styles.inputIcon]}
-          />
+          
+          <Feather name="search" size={25} color="#6D6D6D" style={[styles.icon, styles.inputIcon]}/>
           <TextInput
             style={styles.inputs}
             placeholder="Search..."
@@ -212,7 +187,7 @@ const styles = StyleSheet.create({
   inputIcon: {
     marginLeft: 15,
     justifyContent: "center",
-    alignItems: "center",
+    alignItems:'center'
   },
   notificationList: {
     marginTop: 20,
