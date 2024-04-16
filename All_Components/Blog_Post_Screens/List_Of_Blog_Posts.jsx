@@ -100,12 +100,6 @@ const List_Of_Blog_Posts = () => {
                     <Text style={styles.time}>Credit: {item.credit}</Text>
                   </View>
                   <View style={styles.timeContainer}>
-                    <Image
-                      style={styles.iconData}
-                      source={{
-                        uri: "https://img.icons8.com/color/96/3498db/calendar.png",
-                      }}
-                    />
                     <Text style={styles.time}>{item.time}</Text>
                   </View>
                 </View>
