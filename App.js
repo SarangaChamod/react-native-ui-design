@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import Index_2 from './All_Components/Blog_Post_Screens/Blog_Post.jsx';
+import Index_2 from './All_Components/Blog_Post_Screens/List_Of_Blog_Posts_2.jsx';
 
 
 export default function App() {
